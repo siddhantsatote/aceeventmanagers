@@ -1,0 +1,210 @@
+.interface{
+    height: 30vh;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.about #about-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 89%;
+    height: 100%;
+}
+
+.about #about-body #about-img{
+    width: 50%;
+    height: 100%;
+}
+
+.about #about-body #about-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about #about-body #about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.about #about-body #about-text #a-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+}
+
+.about #about-body #about-text #a-text h3{
+    color: #FBC740;
+    margin: 0;
+}
+
+.about #about-body #about-text #a-text p{
+    color: white;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 230vh;
+}
+
+.team h1{
+    color: #fff;
+    width: 89%;
+}
+
+.team #team-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 89%;
+    height: 100%;
+    gap: 1rem;
+}
+
+.team #team-cards #team-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32.5%;
+    height: 19%;
+    background: #272727;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.team #team-cards #team-card img{
+    max-width: 100%;
+    max-height: 120%;
+}
+
+.core-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.core-team h1{
+    width: 89%;
+    color: white;
+}
+
+.core-team #core-team-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 89%;
+    height: 100%;
+    gap: 1rem;
+}
+
+.core-team #core-team-cards #core-team-card{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #272727;
+    padding: 1rem;
+    gap: 1rem;
+    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    margin-bottom: 1px;
+}
+
+.core-team #core-team-cards #core-team-card #member-profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-color:white ;
+    overflow: hidden;
+}
+
+.core-team #core-team-cards #core-team-card #member-profile-img img{   
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.core-team #core-team-cards #core-team-card #member-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.core-team #core-team-cards #core-team-card #member-info h2{
+    margin: 0;
+}
+.core-team #core-team-cards #core-team-card #member-info p{
+    margin: 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .interface{
+        height: 20vh;
+    }
+    .interface .home .heading h4{
+        font-size: 10px;
+    }
+    .about{
+        height: auto;
+    }
+    .about #about-body{
+        flex-direction: column;
+        width: 95%;
+    }
+    .about #about-body #about-img{
+        display: none;
+    }
+    .about #about-body #about-text{
+        width: 100%;
+        justify-content: none;
+    }
+    .about #about-body #about-text #a-text{
+        height: 25vh;
+    }
+    .team{
+        height: auto;
+    }
+    .team #team-cards #team-card{
+        width: 100%;
+        height: 35vh;
+    }
+    .core-team{
+        height: auto;
+    }
+    .core-team #core-team-cards{
+        width: 95%;
+    }
+    .core-team #core-team-cards #core-team-card{
+        width: 100%;
+        height: 19vh;
+    }
+}

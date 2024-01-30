@@ -1,0 +1,25 @@
+.services{
+    margin-bottom: 5rem;
+}
+
+.services #cards{
+    flex-wrap: wrap;
+    height: 60vh;
+}
+
+.services #cards #card-1{
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .services #cards{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+    } 
+    .services #cards #card-1 {
+        width: 90%;
+    }
+}

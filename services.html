@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skservices</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/About.css">
+    <link rel="stylesheet" href="styles/service.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="ul-logo"><img src="images copy/Component 14.svg" alt=""></ul>
+            <ul class="ul-menu">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="services.html">Services</a>
+            </ul>
+            <ul class="ul-btn">
+                <a class="Contactbtn" onclick=" window.location.href= 'contactus.html' ">Contact Us</a>
+            </ul>
+            <div class="res-menu-bar">
+                <div class="menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="res-menu">
+        <ul class="ul-menu">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="services.html">Services</a>
+            <a class="Contactbtn" onclick=" window.location.href= 'contactus.html' ">Contact Us</a>
+        </ul>
+    </div>
+
+    <div class="interface">
+      <div class="home">
+        <img src="images copy/group-of-happy-business-people.svg" alt="">
+        <div class="heading">
+        <h1>Services We Provide</h1>
+        <h4>YOUR PARTNER IN CREATING UNFORGETTABLE EVENTS!</h4>
+       </div>
+      </div>
+    </div>
+
+    <div class="services">
+        <h1>Services</h1>
+        <div id="cards">
+            <div id="card-1">
+                <div id="card-img"><video src="videos/coparate.mp4" autoplay loop preload="" muted></video></div>
+                <div id="card-head">Corporate Events</div>
+                <div id="card-body">From conferences to product launches, our experienced team will handle all the details, ensuring a seamless and successful corporate event.</div>
+            </div>
+
+            <div id="card-1">
+                <div id="card-img"><video src="videos/trade exhibition.mp4" autoplay loop preload="" muted></div>
+                <div id="card-head">Trade Shows and Exhibitions</div>
+                <div id="card-body">Make your brand stand out at trade shows and exhibitions. Our team will manage booth design, logistics, and ensure your presence leaves a lasting impression on potential clients and partners.</div>
+            </div>
+
+            <div id="card-1">
+                <div id="card-img"><video src="videos/27th national youth festival.mp4" autoplay loop preload="" muted></div>
+                <div id="card-head">National Government Events</div>
+                <div id="card-body">Partner with us to organize distinguished events for national government agencies. From official ceremonies and inaugurations to conferences and diplomatic gatherings, our team ensures precision and protocol adherence for events of national significance.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div id="footer-body">
+            <div id="company-info">
+                <h3>Ace Events Management</h3>
+                <p>Ace Events Management is a leading corporate event management company operating nationally from Nashik, and other cities in India</p>
+                <h3>Contact info</h3>
+                <p>Address: 5th Floor, Shop no.522 Roongta Business Point, Ambad link road, Kamatwade Nashik</p>
+                <p>Email:<span>skservices@gmail.com</span></p>
+
+                <div class="contacts">
+                    <div id="contact-info">
+                        <div id="contact-icon"><ion-icon name="call"></ion-icon></div>
+                        <div id="contact-num">
+                            <p>WhatsApp</p>
+                            <a>80878 21091</a>
+                        </div>
+                    </div>
+                    <div id="contact-info">
+                        <div id="contact-icon"><ion-icon name="call"></ion-icon></div>
+                        <div id="contact-num">
+                            <p>Call us now</p>
+                            <a>93704 83733</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-list">
+                <h3>Company</h3>
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contactus.html">Contact Us</a>
+            </div>
+            <div id="services-list">
+                <h3>Services</h3>
+                <a>Events</a>
+                <a>Exhibitions</a>
+                <a>Brand Activation</a>
+                <a>National Government Events</a>
+                <a></a>
+            </div>
+            <div id="medias-list">
+                <div id="media-icons">
+                    <a href="https://www.instagram.com/ase_event_managers/?igsh=bDU2Z2FiMTJqNTF5"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href=""> <ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href=""> <ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href=""><ion-icon name="logo-github"></ion-icon></a>         
+                </div>
+            </div>
+        </div>
+        <div id="line"></div>
+        <div id="rights">
+            <h6>© 2023 Skservices Events Management Company. All Rights Reserved. <span>Event Company Nashik</span> - <span>privacy policy</span></h6>
+        </div>
+    </footer>
+
+    <script>
+        const menu = document.querySelector(".res-menu-bar");
+      const headerul = document.querySelector(".res-menu");
+
+      menu.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        headerul.classList.toggle("active");
+      });
+    </script>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
