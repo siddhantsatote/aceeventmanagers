@@ -385,14 +385,14 @@ header nav .ul-btn .Contactbtn:hover {
   justify-content: center;
   flex-wrap: wrap;
   width: 87%;
-  height: 100vh;
+  height: auto;
   gap: 1rem;
   padding: 1rem;
 }
 
 .Gallary #g-cards #g-card-1 {
   width: 32%;
-  height: 53%;
+  height: 55vh;
   background-color: #272727;
 }
 
