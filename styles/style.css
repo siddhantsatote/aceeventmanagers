@@ -747,12 +747,20 @@ header nav .menu {
     display: flex;
     justify-content: center;
     width: 95%;
-    height: 350vh;
+    height: auto;
   }
 
   .Gallary #g-cards #g-card-1 {
     width: 100%;
-    height: 16%;
+    height: 50vh;
+  }
+
+  .Gallary #g-cards #g-card-1 #g-card-img{
+    height: 60%;
+  }
+
+  .Gallary #g-cards #g-card-1 #g-card-text{
+    height: 20%;
   }
 
   .footer {
